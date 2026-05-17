@@ -989,68 +989,6 @@
   <div class="section-divider"></div>
   <div class="reviews-grid" id="reviews-grid"></div>
 </section>
-
-<!-- ADMIN DASHBOARD -->
-<section id="admin">
-  <div class="admin-header">
-    <div>
-      <span class="section-label">Management</span>
-      <h2 class="section-title" style="margin-bottom:0">Admin Dashboard</h2>
-    </div>
-  </div>
-  <div class="admin-stats">
-    <div class="stat-card">
-      <div class="stat-card-label">Total Bookings</div>
-      <div class="stat-card-value" id="stat-total">0</div>
-      <div class="stat-card-sub">All time</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-card-label">Confirmed</div>
-      <div class="stat-card-value" id="stat-confirmed">0</div>
-      <div class="stat-card-sub">Active reservations</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-card-label">Revenue</div>
-      <div class="stat-card-value" id="stat-revenue">$0</div>
-      <div class="stat-card-sub">Estimated total</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-card-label">Avg. Stay</div>
-      <div class="stat-card-value" id="stat-avg">0</div>
-      <div class="stat-card-sub">Nights per booking</div>
-    </div>
-  </div>
-  <div class="table-wrap">
-    <div class="table-toolbar">
-      <h4>All Reservations</h4>
-      <input class="search-input" type="text" id="search-input" placeholder="Search by name, room…" oninput="renderTable()"/>
-    </div>
-    <div style="overflow-x:auto">
-      <table id="bookings-table">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Guest</th>
-            <th>Email</th>
-            <th>Room</th>
-            <th>Check-in</th>
-            <th>Check-out</th>
-            <th>Nights</th>
-            <th>Total</th>
-            <th>Status</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-        <tbody id="table-body"></tbody>
-      </table>
-    </div>
-    <div id="empty-state" class="empty-state" style="display:none">
-      <h3>No reservations yet</h3>
-      <p>Bookings will appear here once submitted.</p>
-    </div>
-  </div>
-</section>
-
 <!-- FOOTER -->
 <footer>
   <div class="footer-grid">
